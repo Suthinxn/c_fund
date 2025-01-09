@@ -9,7 +9,8 @@ int main()
     int result;
     for (i = 1; i <= 5; i+=1){
         result += num;
-        printf("\n%d", result);
+        printf("\n%d", i);
+        printf("  %d", result);
     }
     return 0;
 }
